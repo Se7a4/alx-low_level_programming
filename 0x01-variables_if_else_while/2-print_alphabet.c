@@ -9,14 +9,15 @@
 */
 
 int main(void)
-
+{
 	char ch = 'a';
 
 	while (ch <= 'z')
 	{
-		puttcher(ch);
+		putcher(ch);
 		ch++;
 	}
 	putcher('\n');
 
 	return (0);
+}
