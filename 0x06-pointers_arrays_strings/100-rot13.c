@@ -1,9 +1,9 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
 * rot13 - rotates the letters by 13 index.
-* @s : The parameter Pointer to string
-* return : The string s
+* @s: The parameter Pointer to string
+* return: @s
 */
 
 char *rot13(char *s)
