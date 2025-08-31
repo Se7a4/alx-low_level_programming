@@ -3,7 +3,7 @@
 /**
 * rot13 - rotates the letters by 13 index.
 * @s: The parameter Pointer to string
-* return: @s
+* Return: @s
 */
 
 char *rot13(char *s)
