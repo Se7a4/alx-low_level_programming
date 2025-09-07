@@ -13,15 +13,8 @@ char *_strchr(char *s, char c)
 unsigned int i;
 for (i = 0; s[i] != c; i++)
 {
-if (s[i] == c)
-{
-s = 0;
-return (s);
+if (s[i] == '\0')
+return (&s[i]);
 }
-else
-{
-continue;
-}
-}
-return (s + i);
+return (&s[i]);
 }
