@@ -43,8 +43,8 @@ return (0);
 }
 else if (i % x != 0)
 {
-return(check_prime(i, x + 1));
+return (check_prime(i, x + 1));
 }
 }
-return(1);
+return (1);
 }
