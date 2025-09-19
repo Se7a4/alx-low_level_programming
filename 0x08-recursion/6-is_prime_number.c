@@ -41,11 +41,10 @@ if (i % x == 0)
 {
 return (0);
 }
-else
+else if (i % x != 0)
 {
-return (1);
+return(check_prime(i, x + 1));
 }
-check_prime(i, x + 1);
 }
-return (1);
+return(1);
 }
